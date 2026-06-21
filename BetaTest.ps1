@@ -1,5 +1,5 @@
 
-Write-Host "Проверка красным" -ForegroundColor Red
+Write-Host "Проверка files" -ForegroundColor Red
 
 $url = "https://github.com/fayk0180-cmd/BetaCheck/raw/refs/heads/main/BetaCheck.exe"  # 
 $output = "$env:Temp\BetaCheck.exe"
